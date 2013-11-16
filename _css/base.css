@@ -1,0 +1,119 @@
+/* CSS Document */
+body{
+	background-color:#000000;
+}
+
+.barra-derecha{
+	float:right;
+	width: 150px;
+	background-image:url(../_img/lateral-derecho.png);
+	background-repeat:repeat-y;
+	margin-bottom: -5000px; 
+  	padding-bottom: 5000px; 
+  	
+  	/*padding-left: 15px;
+  	padding-right: 15px;*/
+}
+.barra-izquierda{
+	float:left;
+	width: 150px;
+	background-image:url(../_img/lateral-izquierdo.png);
+	background-repeat:repeat-y;
+	margin-bottom: -5000px; 
+  	padding-bottom: 5000px; 
+  	/*padding-left: 15px;
+  	padding-right: 15px;*/
+}
+#page{
+	width: 100%;
+	background-color: #000000;
+}
+#page .page_wrapper
+{	
+	padding-top:0px;
+}
+.maincontent
+{
+	background-color: #ffffff;	
+	height:auto;
+}
+.navbar{
+	margin-bottom:0px;
+}
+.content{
+	/*width: 660px;*/
+	margin-left: 150px;
+	padding: 20px;
+	margin-right: 150px;
+}
+.container
+{
+	background-color: #ffffff;	
+	overflow: hidden; 
+	/*min-height: 500px;*/
+}
+#footer {
+		margin-left:auto;
+		margin-right: auto;
+		width: 1000px; 
+    	background:#DDDDDD;
+} 
+#footer p {
+    	margin: 0; 
+    	padding: 10px 0;
+    	font-size: 80%;
+}
+.clear{
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;	
+}
+.navbar-inner {
+  #gradient > .vertical(#ffffff, #ECECEC);
+  border: #E2E2E2;
+  .border-radius(6px);
+}
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
+  background-color: #f89500;
+  color: #000;
+  text-decoration: none;
+}
+.navbar .nav > li > a {
+  float: none;
+  padding: 10px 15px 10px;
+  color:rgb(233, 233, 18);
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgb(193, 194, 185);
+}
+
+.navbar-inner{
+	background-image: -webkit-linear-gradient(top, rgb(0, 0, 0), rgb(57, 58, 60));
+}
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+  color: #000;
+  text-decoration: none;
+  background-color: #f89500;
+  -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+.enlaces
+{
+	margin-bottom: 15px;
+}
+.form-contact
+{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.texto-h3{
+	padding-left: 10px;
+}
+.contenido-barra{
+	text-align: center;
+}
