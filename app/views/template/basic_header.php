@@ -146,7 +146,7 @@
                               <li><a href="single-post.html" class="sf-with-ul">Single Post</a></li>
                            </ul>
                         </li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="contact.html">Contactanos</a></li>
                      </ul>
                   </nav>
                   <!-- Menu End --> 
