@@ -42,7 +42,7 @@
                   <div class="logo pull-left">
                      <h1>
                         <a href="index-2.html">
-                        <img src="<?= cdn_base('<?= cdn_base('img/logo.png'); ?>" alt="pixma" width="125" height="60">
+                        <img src="<?= cdn_base('img/logo.png'); ?>" alt="pixma" width="125" height="60">
                         </a>
                      </h1>
                   </div>

@@ -29,12 +29,13 @@
             <!-- Switcher CSS -->
             <link href="<?= cdn_base('css/switcher.css" rel="stylesheet');?>">
             <link href="<?= cdn_base('css/spectrum.css" rel="stylesheet');?>">
-            <!-- Favicons -->
+            <!-- Favicons --><?php /*
             <link rel="shortcut icon" href="<?= cdn_base('img/ico/favicon.ico');?>">
             <link rel="apple-touch-icon" href="<?= cdn_base('img/ico/apple-touch-icon.png');?>">
             <link rel="apple-touch-icon" sizes="72x72" href="<?= cdn_base('img/ico/apple-touch-icon-72.png');?>">
             <link rel="apple-touch-icon" sizes="114x114" href="<?= cdn_base('img/ico/apple-touch-icon-114.png');?>">
             <link rel="apple-touch-icon" sizes="144x144" href="<?= cdn_base('img/ico/apple-touch-icon-144.png');?>">
+             */ ?>
             <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
             <!--[if lt IE 9]>
             <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
