@@ -4,6 +4,7 @@ function load_settings()
 {
 	//$ci será como $this
 	$ci =& get_instance();
+	$ci->load->database();
 	$query = $ci->db->get('cnf_configuraciones');
 
 	if($query->num_rows())
