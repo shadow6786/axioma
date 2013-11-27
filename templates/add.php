@@ -1,26 +1,32 @@
-<div class="row">
-	<div class="span12">
-		<div class="headline no-margintop">
-            <h3 class="short_headline">
-                <span>Agregar nuevo registro</span>
-            </h3>
-        </div>
-		<?php   echo form_open(current_url(),array('class' => 'form-horizontal form-add')); ?>
-			<?php if (strlen($custom_error) > 0) : ?>
-            <div class="alert alert-error">
-                <button type="button" class="close" data-dismiss="alert">×</button>
-                <strong>Aviso:</strong> Por favor revisa los campos validados antes de poder guardar el registro.<br />
-            </div>
-            <?php endif; ?>
-			{forms_inputs}
-			<hr class="dottedhr" />
-			<div>
-				<a class="btn" href="<?= base_url('panel/{folder}/{controller_name_l}/') ?>">Volver</a>
-				<?php echo form_reset( 'clear', 'Resetear','class="btn"'); ?>
-				<?php echo form_submit( 'submit', 'Guardar','class="btn btn-primary"'); ?>
-			</div>
-		<?php echo form_close(); ?>
+<div id="page-content">
+	<h1 id="page-header">Agregar nuevo registro</h1>
+	<div class="fluid-container">
+		<div class="row-fluid">
+			<article class="span12">
+				<div class="jarviswidget">
+					<header>
+						<h2>Complete los campos para agregar nuevos {controller_name_l}</h2>
+					</header>
+					<div class="inner-space">
+						<?php   echo form_open(current_url(),array('class' => "form-horizontal themed")); ?>
+							<fieldset>
+								{forms_inputs}
+								<div class="form-actions">
+									<button type="button" class="btn">
+										Atras
+									</button>
+									<button type="reset" class="btn medium btn-danger">
+										Cancelar
+									</button>
+									<button type="submit" class="btn medium btn-primary">
+										Guardar
+									</button>
+								</div>
+							</fieldset>
+						<?php echo form_close(); ?>
+					</div>
+				</div>
+			</article>
+		</div>
 	</div>
 </div>
- 
-

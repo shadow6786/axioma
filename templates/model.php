@@ -60,7 +60,7 @@ class {model_name} extends CI_model {
 		}
 		return FALSE;
 	}
-	function get_{table_n}_combo($fields,$where='')
+	function get_{table}_combo($fields,$where='')
 	{
 		$this->db->select($fields);
 		$this->db->from('{table}');
