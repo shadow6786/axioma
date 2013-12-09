@@ -1,5 +1,5 @@
 <form action="<?php echo current_url();?>" method="post">
-<h1>Axioma CodeGen 3.4</h1>
+<h1>Axioma CodeGen 3.5</h1>
 Tables: <?php
 $db_tables = $this->db->list_tables();
 echo form_dropdown('table',$db_tables);

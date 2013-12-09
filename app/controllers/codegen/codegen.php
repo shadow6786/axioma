@@ -60,7 +60,7 @@ class Codegen extends CI_Controller {
                       ORDER BY seq_in_index separator ', '), char) as column_name,
                       null as referenced_table_name, null as referenced_column_name
                 FROM information_schema.statistics
-                WHERE non_unique = 1 AND index_type = 'FOREIGN KEY' AND table_schema = 'agenda_bd' AND table_name = '".$data['table']."'"."  
+                WHERE non_unique = 1 AND index_type = 'FOREIGN KEY' AND table_schema = '".$data["table"]."' AND table_name = '".$data['table']."'"."  
                 GROUP BY table_schema, table_name, constraint_name, constraint_type,
                         referenced_table_name, referenced_column_name
                 ORDER BY table_schema, table_name, constraint_name");
